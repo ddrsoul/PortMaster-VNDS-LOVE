@@ -1,0 +1,27 @@
+09:02:47 text { { 
+    text = 'No novels found in this directory: ' 
+  } }
+09:02:47 text { { 
+    text = '/userdata/roms/ports/vnds-love/conf/love/VNDS-LOVE/novels' 
+  } }
+09:02:47 text { { 
+    text = 'Add one and restart the program' 
+  } }
+09:02:47 resize { { 
+    px = 2.5,
+    py = 2.5,
+    sx = 1,
+    sy = 1 
+  } }
+09:02:47 resize { { 
+    px = 2.5,
+    py = 2.5,
+    sx = 1,
+    sy = 1 
+  } }
+09:02:47 resize { { 
+    px = 2.5,
+    py = 2.5,
+    sx = 1,
+    sy = 1 
+  } }
