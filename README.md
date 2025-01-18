@@ -24,8 +24,8 @@ Place your novel folder into
 
 <details>
 <summary>example of folder structure</summary>
-```
 
+```bash
 └── novels
     ├── ever17
     │   ├── background
@@ -55,6 +55,7 @@ Place your novel folder into
         └── thumbnail.png
 ```
 </details>
+
 then run the port and use internal launcher to select novel.
 
 ## Thanks To
