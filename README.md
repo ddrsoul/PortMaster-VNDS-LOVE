@@ -47,10 +47,8 @@ Place your novel folder into
         ├── icon.png
         ├── img.ini
         ├── info.txt
-        ├── save
         ├── save1.json
         ├── script.zip
-        ├── sound
         ├── sound.zip
         └── thumbnail.png
 ```
@@ -63,3 +61,14 @@ VNDS-LOVE project https://github.com/ajusa/VNDS-LOVE for porting the engine to l
 @JanTrueno for giving references on how to port love2d projects to Portmaster.  
 @StockPainter for motivating me, testing results and supporting with other project`s stuff.  
 And thanks to all Portmaster community for provided tools and documentation.
+
+## Troubleshooting
+VNDS-LOVE can use only ogg and wav audioformat, so if you have problems with sound\music in your VN check ./sound folder.  
+Also it is possible that instead of folder you have sound.zip archive - VNDS-LOVE can use both types (archive or folder).  
+If your sound files are in *.aac format you should convert them to *.ogg.  
+Open ssh terminal and run this:
+```
+cd ./path/to/sound/directory
+for file in *.aac; do ffmpeg -i "$file" "${file%.aac}.ogg" && rm "$file"; done
+```
+This script will use ffmpeg to convert aac to ogg, when conversion is successful - original file will be deleted.
