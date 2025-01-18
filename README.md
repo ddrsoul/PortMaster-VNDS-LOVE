@@ -59,3 +59,7 @@ Place your novel folder into
 then run the port and use internal launcher to select novel.
 
 ## Thanks To
+VNDS-LOVE project https://github.com/ajusa/VNDS-LOVE for porting the engine to love2d.  
+@JanTrueno for giving references on how to port love2d projects to Portmaster.  
+@StockPainter for motivating me, testing results and supporting with other project`s stuff.  
+And thanks to all Portmaster community for provided tools and documentation.
