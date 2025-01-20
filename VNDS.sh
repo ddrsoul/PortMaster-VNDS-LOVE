@@ -13,7 +13,6 @@ else
 fi
 
 source $controlfolder/control.txt
-source $controlfolder/runtimes/"love_11.5"/love.txt
 
 [ -f "${controlfolder}/mod_${CFW_NAME}.txt" ] && source "${controlfolder}/mod_${CFW_NAME}.txt"
 
@@ -30,6 +29,8 @@ cd $GAMEDIR
 # Set the XDG environment variables for config & savefiles
 export XDG_DATA_HOME="$CONFDIR"
 export SDL_GAMECONTROLLERCONFIG="$sdl_controllerconfig"
+
+source $controlfolder/runtimes/"love_11.5"/love.txt
 
 # Run the love runtime
 $GPTOKEYB "$LOVE_GPTK" &
